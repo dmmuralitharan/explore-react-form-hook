@@ -26,7 +26,9 @@ export default function LoginForm() {
         <form
             onSubmit={handleSubmit(onSubmitLoginForm)}
             className="flex flex-col justify-center items-center space-y-2 mt-10">
-
+            
+            <h1 className="text-xl font-semibold">Login</h1>
+            
             <div className="flex flex-col  justify-center items-start">
                 <label htmlFor="username">Username</label>
                 <input
